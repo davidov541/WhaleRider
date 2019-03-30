@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<audacityproject projname="OmNomNom_data" version="1.1.0" audacityversion="1.2.6" sel0="0.3836720316" sel1="0.3836720316" vpos="0" h="0.0000000000" zoom="617.7150808583" rate="22050.000000" >
+	<tags title="" artist="" album="" track="-1" year="" genre="-1" comments="" id3v2="1" />
+	<wavetrack name="Sesame Street  The Origin of Om nom nom nom" channel="0" linked="1" offset="0.00150412" rate="22050.000000" gain="1.000000" pan="0.000000" >
+		<sequence maxsamples="262144" sampleformat="262159" numsamples="26732" >
+			<waveblock start="0" >
+				<simpleblockfile filename='b00150.au' len='19493' min='-0.522276' max='0.597711' rms='0.063924'/>
+			</waveblock>
+			<waveblock start="19493" >
+				<simpleblockfile filename='b00151.au' len='7239' min='-0.280113' max='0.353276' rms='0.019127'/>
+			</waveblock>
+		</sequence>
+		<envelope numpoints='0'>
+		</envelope>
+	</wavetrack>
+	<wavetrack name="Sesame Street  The Origin of Om nom nom nom" channel="1" linked="0" offset="0.00150412" rate="22050.000000" gain="1.000000" pan="0.000000" >
+		<sequence maxsamples="262144" sampleformat="262159" numsamples="26732" >
+			<waveblock start="0" >
+				<simpleblockfile filename='b00152.au' len='19493' min='-0.522276' max='0.597711' rms='0.063924'/>
+			</waveblock>
+			<waveblock start="19493" >
+				<simpleblockfile filename='b00153.au' len='7239' min='-0.280113' max='0.353276' rms='0.019127'/>
+			</waveblock>
+		</sequence>
+		<envelope numpoints='0'>
+		</envelope>
+	</wavetrack>
+</audacityproject>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+    <system.serviceModel>
+        <bindings>
+            <basicHttpBinding>
+                <binding name="BasicHttpBinding_IPhoneHighScoreService" maxBufferSize="2147483647"
+                    maxReceivedMessageSize="2147483647">
+                    <security mode="None" />
+                </binding>
+            </basicHttpBinding>
+        </bindings>
+        <client>
+            <endpoint address="http://tfs.davidmcginnisonline.com/AppServices/PhoneHighScoreService/PhoneHighScoreService.svc"
+                binding="basicHttpBinding" bindingConfiguration="BasicHttpBinding_IPhoneHighScoreService"
+                contract="IPhoneHighScoreService" name="BasicHttpBinding_IPhoneHighScoreService" />
+        </client>
+    </system.serviceModel>
+</configuration>

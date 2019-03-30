@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/HighScoreService" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/HighScoreService" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="HighScore">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="GameTitle" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PlatformID" type="tns:Platform" />
+      <xs:element minOccurs="0" name="Score" type="xs:int" />
+      <xs:element minOccurs="0" name="Transmitted" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="HighScore" nillable="true" type="tns:HighScore" />
+  <xs:simpleType name="Platform">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Windows" />
+      <xs:enumeration value="WindowsPhone" />
+      <xs:enumeration value="Surface" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="Platform" nillable="true" type="tns:Platform" />
+  <xs:complexType name="ArrayOfHighScore">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="HighScore" nillable="true" type="tns:HighScore" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfHighScore" nillable="true" type="tns:ArrayOfHighScore" />
+</xs:schema>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="HighScoreService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://tfs.davidmcginnisonline.com:5135/AppServices/HighScoreService/HighScoreService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://tfs.davidmcginnisonline.com:5135/AppServices/HighScoreService/HighScoreService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://tfs.davidmcginnisonline.com:5135/AppServices/HighScoreService/HighScoreService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/HighScoreService" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IHighScoreService_AddHighScore_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddHighScore" />
+  </wsdl:message>
+  <wsdl:message name="IHighScoreService_AddHighScore_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddHighScoreResponse" />
+  </wsdl:message>
+  <wsdl:message name="IHighScoreService_GetHighScoresGlobally_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetHighScoresGlobally" />
+  </wsdl:message>
+  <wsdl:message name="IHighScoreService_GetHighScoresGlobally_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetHighScoresGloballyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IHighScoreService_GetHighScoresForPlatform_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetHighScoresForPlatform" />
+  </wsdl:message>
+  <wsdl:message name="IHighScoreService_GetHighScoresForPlatform_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetHighScoresForPlatformResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IHighScoreService">
+    <wsdl:operation name="AddHighScore">
+      <wsdl:input wsaw:Action="http://tempuri.org/IHighScoreService/AddHighScore" message="tns:IHighScoreService_AddHighScore_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IHighScoreService/AddHighScoreResponse" message="tns:IHighScoreService_AddHighScore_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetHighScoresGlobally">
+      <wsdl:input wsaw:Action="http://tempuri.org/IHighScoreService/GetHighScoresGlobally" message="tns:IHighScoreService_GetHighScoresGlobally_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IHighScoreService/GetHighScoresGloballyResponse" message="tns:IHighScoreService_GetHighScoresGlobally_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetHighScoresForPlatform">
+      <wsdl:input wsaw:Action="http://tempuri.org/IHighScoreService/GetHighScoresForPlatform" message="tns:IHighScoreService_GetHighScoresForPlatform_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IHighScoreService/GetHighScoresForPlatformResponse" message="tns:IHighScoreService_GetHighScoresForPlatform_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IHighScoreService" type="tns:IHighScoreService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="AddHighScore">
+      <soap:operation soapAction="http://tempuri.org/IHighScoreService/AddHighScore" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetHighScoresGlobally">
+      <soap:operation soapAction="http://tempuri.org/IHighScoreService/GetHighScoresGlobally" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetHighScoresForPlatform">
+      <soap:operation soapAction="http://tempuri.org/IHighScoreService/GetHighScoresForPlatform" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="HighScoreService">
+    <wsdl:port name="BasicHttpBinding_IHighScoreService" binding="tns:BasicHttpBinding_IHighScoreService">
+      <soap:address location="http://tfs.davidmcginnisonline.com:5135/AppServices/HighScoreService/HighScoreService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

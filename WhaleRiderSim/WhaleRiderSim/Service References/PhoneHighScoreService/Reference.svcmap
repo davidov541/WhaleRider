@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="def7d0b6-7b79-44b5-a7a0-d29087096258" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.ObjectModel.ObservableCollection`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>false</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://tfs.davidmcginnisonline.com/AppServices/PhoneHighScoreService/PhoneHighScoreService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="PhoneHighScoreService.disco" MetadataType="Disco" ID="9b953bf0-6077-4acd-b1be-0dd11f0be043" SourceId="1" SourceUrl="http://tfs.davidmcginnisonline.com/AppServices/PhoneHighScoreService/PhoneHighScoreService.svc?disco" />
+    <MetadataFile FileName="PhoneHighScoreService.xsd" MetadataType="Schema" ID="3b8e615b-c4ef-4d0c-ace5-b8ef08deabf3" SourceId="1" SourceUrl="http://tfs.davidmcginnisonline.com/AppServices/PhoneHighScoreService/PhoneHighScoreService.svc?xsd=xsd1" />
+    <MetadataFile FileName="PhoneHighScoreService.wsdl" MetadataType="Wsdl" ID="47e51e56-54a6-48e6-9be9-8d443e1e8214" SourceId="1" SourceUrl="http://tfs.davidmcginnisonline.com/AppServices/PhoneHighScoreService/PhoneHighScoreService.svc?wsdl" />
+    <MetadataFile FileName="PhoneHighScoreService1.xsd" MetadataType="Schema" ID="bb4ade5f-965d-453d-8a11-bf55126250f9" SourceId="1" SourceUrl="http://tfs.davidmcginnisonline.com/AppServices/PhoneHighScoreService/PhoneHighScoreService.svc?xsd=xsd0" />
+    <MetadataFile FileName="PhoneHighScoreService2.xsd" MetadataType="Schema" ID="9b00e2f9-fa6f-4c19-863a-a3c2110e935e" SourceId="1" SourceUrl="http://tfs.davidmcginnisonline.com/AppServices/PhoneHighScoreService/PhoneHighScoreService.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

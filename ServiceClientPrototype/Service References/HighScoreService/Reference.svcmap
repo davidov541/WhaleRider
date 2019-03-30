@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="d682cab8-cd8f-44eb-b5da-2079b009c547" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.ArrayList" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://tfs.davidmcginnisonline.com:5135/AppServices/HighScoreService/HighScoreService.svc?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="HighScoreService3.xsd" MetadataType="Schema" ID="b326072b-38f6-43b4-9923-78ba97924f1a" SourceId="1" SourceUrl="http://tfs.davidmcginnisonline.com:5135/AppServices/HighScoreService/HighScoreService.svc?xsd=xsd2" />
+    <MetadataFile FileName="HighScoreService31.xsd" MetadataType="Schema" ID="98429da7-6e8e-4883-990e-1dfdfea4d002" SourceId="1" SourceUrl="http://tfs.davidmcginnisonline.com:5135/AppServices/HighScoreService/HighScoreService.svc?xsd=xsd0" />
+    <MetadataFile FileName="HighScoreService1.wsdl" MetadataType="Wsdl" ID="4e68c81d-f98d-467b-92c0-93f487af2a1f" SourceId="1" SourceUrl="http://tfs.davidmcginnisonline.com:5135/AppServices/HighScoreService/HighScoreService.svc?wsdl" />
+    <MetadataFile FileName="HighScoreService32.xsd" MetadataType="Schema" ID="9c01f817-3911-442a-bfd3-5505182e007a" SourceId="1" SourceUrl="http://tfs.davidmcginnisonline.com:5135/AppServices/HighScoreService/HighScoreService.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

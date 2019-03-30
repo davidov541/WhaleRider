@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<audacityproject projname="Success_data" version="1.1.0" audacityversion="1.2.6" sel0="0.2055997656" sel1="0.2055997656" vpos="0" h="0.1855949219" zoom="449.8910420133" rate="44100.000000" >
+	<tags title="" artist="" album="" track="-1" year="" genre="-1" comments="" id3v2="1" />
+	<wavetrack name="Success" channel="0" linked="1" offset="0.00000000" rate="32000.000000" gain="1.000000" pan="0.000000" >
+		<sequence maxsamples="262144" sampleformat="262159" numsamples="70488" >
+			<waveblock start="0" >
+				<simpleblockfile filename='b00004.au' len='70488' min='-0.408407' max='0.374534' rms='0.056584'/>
+			</waveblock>
+		</sequence>
+		<envelope numpoints='0'>
+		</envelope>
+	</wavetrack>
+	<wavetrack name="Success" channel="1" linked="0" offset="0.00000000" rate="32000.000000" gain="1.000000" pan="0.000000" >
+		<sequence maxsamples="262144" sampleformat="262159" numsamples="70488" >
+			<waveblock start="0" >
+				<simpleblockfile filename='b00005.au' len='70488' min='-0.541694' max='0.453979' rms='0.072735'/>
+			</waveblock>
+		</sequence>
+		<envelope numpoints='0'>
+		</envelope>
+	</wavetrack>
+</audacityproject>
