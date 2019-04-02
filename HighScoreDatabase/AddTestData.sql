@@ -1,0 +1,1 @@
+﻿INSERT INTO WhaleRider VALUES (getdate(), 'TestPlayer', 5, 5, 5)

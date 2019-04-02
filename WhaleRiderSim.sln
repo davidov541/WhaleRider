@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9187DB14-6B60-42DB-8271-E2BFB2D2D5A8}"
 	ProjectSection(SolutionItems) = preProject
 		Local.testsettings = Local.testsettings
@@ -25,11 +25,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhaleRiderForPhone", "Whale
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhaleRiderForPhoneContent", "WhaleRiderForPhone\WhaleRiderForPhoneContent\WhaleRiderForPhoneContent.contentproj", "{16FD3F42-4361-43B4-B587-B8F9B2B23F0B}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "HighScoreDatabase", "HighScoreDatabase\HighScoreDatabase.sqlproj", "{19F03DD5-E5B3-4442-A08B-922EEFCEC1DC}"
+EndProject
 Global
 	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 8
+		SccNumberOfProjects = 9
 		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = http://tfs.davidmcginnisonline.com:8080/tfs/davesprojects
+		SccTeamFoundationServer = http://cauchy:8080/tfs/davesprojects
 		SccLocalPath0 = .
 		SccProjectUniqueName1 = HighScoreService\\HighScoreService.csproj
 		SccProjectName1 = HighScoreService
@@ -52,6 +54,9 @@ Global
 		SccProjectUniqueName7 = PhoneHighScoreService\\PhoneHighScoreService.csproj
 		SccProjectName7 = PhoneHighScoreService
 		SccLocalPath7 = PhoneHighScoreService
+		SccProjectUniqueName8 = HighScoreDatabase\\HighScoreDatabase.sqlproj
+		SccProjectName8 = HighScoreDatabase
+		SccLocalPath8 = HighScoreDatabase
 	EndGlobalSection
 	GlobalSection(TestCaseManagementSettings) = postSolution
 		CategoryFile = WhaleRiderSim3.vsmdi
@@ -149,6 +154,22 @@ Global
 		{16FD3F42-4361-43B4-B587-B8F9B2B23F0B}.Release|Mixed Platforms.ActiveCfg = Release|Windows Phone
 		{16FD3F42-4361-43B4-B587-B8F9B2B23F0B}.Release|Windows Phone.ActiveCfg = Release|Windows Phone
 		{16FD3F42-4361-43B4-B587-B8F9B2B23F0B}.Release|x86.ActiveCfg = Release|Windows Phone
+		{19F03DD5-E5B3-4442-A08B-922EEFCEC1DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19F03DD5-E5B3-4442-A08B-922EEFCEC1DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19F03DD5-E5B3-4442-A08B-922EEFCEC1DC}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{19F03DD5-E5B3-4442-A08B-922EEFCEC1DC}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{19F03DD5-E5B3-4442-A08B-922EEFCEC1DC}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{19F03DD5-E5B3-4442-A08B-922EEFCEC1DC}.Debug|Mixed Platforms.Deploy.0 = Debug|Any CPU
+		{19F03DD5-E5B3-4442-A08B-922EEFCEC1DC}.Debug|Windows Phone.ActiveCfg = Debug|Any CPU
+		{19F03DD5-E5B3-4442-A08B-922EEFCEC1DC}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{19F03DD5-E5B3-4442-A08B-922EEFCEC1DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19F03DD5-E5B3-4442-A08B-922EEFCEC1DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19F03DD5-E5B3-4442-A08B-922EEFCEC1DC}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{19F03DD5-E5B3-4442-A08B-922EEFCEC1DC}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{19F03DD5-E5B3-4442-A08B-922EEFCEC1DC}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{19F03DD5-E5B3-4442-A08B-922EEFCEC1DC}.Release|Mixed Platforms.Deploy.0 = Release|Any CPU
+		{19F03DD5-E5B3-4442-A08B-922EEFCEC1DC}.Release|Windows Phone.ActiveCfg = Release|Any CPU
+		{19F03DD5-E5B3-4442-A08B-922EEFCEC1DC}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
